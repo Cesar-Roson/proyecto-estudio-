@@ -1,0 +1,33 @@
+
+#listamateriales{
+    text-align: center;
+  }
+  #listamateriales{
+    list-style-type: none;
+  }
+  
+  #serviciosup{
+    display: flex;
+    flex-direction: column;
+    align-items:center;}
+
+    //maps
+    $colores:(
+        consola:rgb(23, 23, 85)
+        bateria:rgb(189, 78, 78)
+        bajo:rgb(155, 116, 43)
+        guitarra:rgb(22, 73, 22)
+        teclado:rgb(105, 52, 105)
+        microfonos:rgb(78, 47, 52)
+        );
+
+        .btn-container{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 10px;  
+        }
+
+//bucle each 
+@each $key, $valor in $colores
+

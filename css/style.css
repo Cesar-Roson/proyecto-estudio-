@@ -1,26 +1,28 @@
-body{
-  background-color:#7f4f24;
+body {
+  background-colo: #7f4f24;
 }
 
-h1,h2,h3,h4,h5{
+h1, h2, h3, h4, h5 {
   font-family: "Roboto", sans-serif;
 }
 
-.fotofondo{height: 10px;}
+.fotofondo {
+  height: 10px;
+}
 
-.logo{
-    text-align:center;
-    display: block;
-    background-color:#7f4f24;
-    width: 90%;
-    margin:auto
+.logo {
+  text-align: center;
+  display: block;
+  background-color: #7f4f24;
+  width: 90%;
+  margin: auto;
 }
 
 .navbarnavbar-expand-lgbg-body-tertiary {
   display: flex;
-  align-items:normal;
+  align-items: normal;
   width: 100%;
-  background-color:#7f4f24;
+  background-color: #7f4f24;
 }
 
 .navbar-collapse {
@@ -32,58 +34,57 @@ h1,h2,h3,h4,h5{
 .nav-list {
   list-style-type: sans-serif;
   text-align: center;
-  height: 50px; 
+  height: 50px;
   line-height: 50px;
-  background-color: #0f3d0ee0;
+  background-color: rgba(15, 61, 14, 0.8784313725);
   align-items: center;
-} 
+}
 
 .nav-list li {
   display: inline-block;
   padding-right: 5px;
   padding-left: 5px;
-  margin: 0 10px; 
+  margin: 0 10px;
 }
 
-.nav-list li a:hover {   
-  color:#a5b419;
+.nav-list li a:hover {
+  color: #a5b419;
 }
 
 .nav-list li a {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
-  color: #333; 
-  font-weight: bold; 
+  color: #333;
+  font-weight: bold;
 }
 
-.nav-list li a i{
-  margin-right:5px;
+.nav-list li a i {
+  margin-right: 5px;
 }
 
-#tablainicio{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px
-  }
+#tablainicio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
 
-#foto1{
+#foto1 {
   grid-column: 1/2;
   width: 650px;
   height: auto;
   padding: 5px;
 }
 
-#parrafo1{
+#parrafo1 {
   align-items: center;
 }
 
-#parrafo2{
+#parrafo2 {
   padding: 40px;
-
 }
 
-.video{
-  width:100%;
+.video {
+  width: 100%;
   grid-column: 2;
   padding: 20px;
 }
@@ -100,40 +101,40 @@ footer {
   width: 100%;
 }
 
-.social-media a i{
-font-size: 50px;
-image-orientation: from-image;
+.social-media a i {
+  font-size: 50px;
+  image-orientation: from-image;
 }
 
-#tituloestudio{
-text-align: center;
-}
-
-#listamateriales{
+#tituloestudio {
   text-align: center;
 }
 
-#listamateriales{
+#listamateriales {
+  text-align: center;
+}
+
+#listamateriales {
   list-style-type: none;
 }
 
-#titulod{
+#titulod {
   text-align: center;
 }
 
-#tituloc{
+#tituloc {
   text-align: center;
 }
 
-#tituloc{
+#tituloc {
   font-size: 28px;
 }
 
-#formulario{
- width: 300px;
- padding: 20px;
- margin: 0 auto;
- border-radius: 5px;
+#formulario {
+  width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 5px;
 }
 
 .form-label {
@@ -143,23 +144,23 @@ text-align: center;
   margin-bottom: 5px;
 }
 
-.form-item{
-  margin-bottom:20px;
+.form-item {
+  margin-bottom: 20px;
 }
 
-input[type=text], input[type=email], input[type=number]{
-  border-radius:8px;
+input[type=text], input[type=email], input[type=number] {
+  border-radius: 8px;
   border: 1px solid #cecece;
-  height:36px;
-  width:100%;
-  display:block;
+  height: 36px;
+  width: 100%;
+  display: block;
 }
 
-textarea{
-  border-radius:8px;
-  border: 1px solid #cecece;  
-  width:100%;
-  display:block;
+textarea {
+  border-radius: 8px;
+  border: 1px solid #cecece;
+  width: 100%;
+  display: block;
 }
 
 .btn {
@@ -169,10 +170,10 @@ textarea{
   border-radius: 8px;
   font-family: Arial;
   color: #ffffff;
-  font-size: 14px;  
+  font-size: 14px;
   padding: 10px;
-  padding-left:15px;
-  padding-right:15px;
+  padding-left: 15px;
+  padding-right: 15px;
   text-decoration: none;
   border: 1px solid #3498db;
 }
@@ -187,39 +188,37 @@ textarea{
   text-decoration: none;
 }
 
-.text-right{
-  text-align:right;
+.text-right {
+  text-align: right;
 }
 
-.texto{
+.texto {
   text-align: justify;
-  font-size:larger;
+  font-size: larger;
   font-family: rubik;
   padding: 10px;
 }
 
-
-.imggalleria{
-  display: flex; 
+.imggalleria {
+  display: flex;
   overflow: hidden;
   width: 400px;
   height: 400px;
 }
 
-#serviciosup{
+#serviciosup {
   display: flex;
   flex-direction: column;
-  align-items:center;
-  
+  align-items: center;
 }
 
 .row {
   max-width: fit-content;
 }
 
-
 .bg-body-tertiary {
   --bs-bg-opacity: 1;
-  background-color: #7f4f24(116 79 46) !important;
+  background-color: #7f4f24 116 79 46 !important;
 }
 
+/*# sourceMappingURL=style.css.map */

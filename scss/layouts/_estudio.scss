@@ -1,0 +1,22 @@
+#tituloestudio{
+    text-align: center;
+    }
+
+    
+  .imggalleria{
+    display: flex; 
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+  }
+  .row {
+    max-width: fit-content;
+  }
+  
+  
+  .bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #7f4f24(116 79 46) !important;
+  }
+  
+
